@@ -50,4 +50,4 @@ jobs:
           app-name: 'liyi-demo'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E90C77E992F4FB8AE85EE546C3D111D }}
-          package: '*.war'
+          package: '*.jar'
